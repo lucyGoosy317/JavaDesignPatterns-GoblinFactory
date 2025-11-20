@@ -10,12 +10,12 @@ public abstract class Goblin {
 
     //All non-abstract methods are inherited as they are
     // Non-abstract method
-    public int getHP() {        
+    public final int getHP() {        
         return this.hp;
     }
 
     // Non-abstract method
-    public void setHP(int hp) {
+    public final void setHP(int hp) {
         this.hp=hp;   
     }
 
@@ -23,7 +23,7 @@ public abstract class Goblin {
     public abstract void attack();
 
     // Non-abstract method
-    public void displayStats(){
+    public final void displayStats(){
         System.out.println("Goblin Type: "+this.goblinType);
         System.out.println("Goblin Health points: "+getHP());
         System.out.println("\n");
