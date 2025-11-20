@@ -32,8 +32,8 @@ The Goblin class can also be an interface class
 
 
 ## How to build
-Java 11.0.17 (ensure you have above java 9 - java 11 prefered)
-Gradle 7.3.1
+Java 17 (different versions of java will require different version of gradle support and change of plugins)
+Gradle 8.1.1
 
 Built with gradle wrapper:
 

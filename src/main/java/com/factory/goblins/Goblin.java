@@ -20,7 +20,7 @@ public abstract class Goblin {
     }
 
     //abstract method must be overriden
-    public void attack(){}
+    public abstract void attack();
 
     // Non-abstract method
     public void displayStats(){
